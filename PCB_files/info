@@ -1,0 +1,299 @@
+{
+  "uuid": "f166c34e5abacdedc64b808532457aa4",
+  "path": "Offline/Photogate1",
+  "name": "Photogate1",
+  "content": "",
+  "created_at": "2023-07-29 22:12:47",
+  "updated_at": "2023-08-08 18:07:57",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "f56056eb5e36dbe92661eb538738f667",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "cf882d0eb6ae4e6ca107359606089239": 1,
+        "e0bf0d5a2d4945a9b99fa7403b92d02e": 1,
+        "aaf4c9f1028a4e6ca0b0cfcdc6e084c5": 1,
+        "10ddd6a68ea44f0ea5d9e27c6642ca5c": 1,
+        "012145c2090242cd85b4a441f2d1ce4e": 1,
+        "73ff11d2b8eb473c829721dfc0a74a96": 1,
+        "8462b799b43a4451ab2421d4adae14c5": 2,
+        "42300fb120fc4b7f9661bdaf710fb03a": 1,
+        "8d910a940f6943b9b4c2a28b54c29b27": 1,
+        "f25696fa9f944e85a961a1d90258a387": 1,
+        "2d4b10e9c0a64047a979332b44dd75c8": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "IR",
+          1,
+          "IR",
+          "U1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "IR",
+            "puuid": "29b294485f7c4742a68ad483040f9eaa",
+            "uuid": "cf882d0eb6ae4e6ca107359606089239"
+          }
+        ],
+        [
+          "arduino nano",
+          1,
+          "ARDUINO NANO",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "arduino nano",
+            "puuid": "ca5fa3f587714aeabaeffdcd4a77a30e",
+            "uuid": "e0bf0d5a2d4945a9b99fa7403b92d02e"
+          }
+        ],
+        [
+          "battery",
+          1,
+          "BATTERY",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "battery",
+            "puuid": "a9eb82f02ee54a98aac46faf63a6e1fe",
+            "uuid": "aaf4c9f1028a4e6ca0b0cfcdc6e084c5"
+          }
+        ],
+        [
+          "laser receiver",
+          1,
+          "LASER RECEIVER",
+          "U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "laser receiver",
+            "puuid": "5413fb1ac6dd462d9ffe2ee0fe200f4c",
+            "uuid": "10ddd6a68ea44f0ea5d9e27c6642ca5c"
+          }
+        ],
+        [
+          "charger",
+          1,
+          "CHARGER",
+          "U16",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "charger",
+            "puuid": "64ad43635e7e42a4a9f4757a9608914a",
+            "uuid": "012145c2090242cd85b4a441f2d1ce4e"
+          }
+        ],
+        [
+          "voltage booster",
+          1,
+          "VOLTAGE BOOSTER",
+          "U17",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "voltage booster",
+            "puuid": "9d5379e10de34c2e880c7de4d3a21293",
+            "uuid": "73ff11d2b8eb473c829721dfc0a74a96"
+          }
+        ],
+        [
+          "switch",
+          2,
+          "SWITCH",
+          "U18,U19",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "switch",
+            "puuid": "34e8fda956bb4aff97a24d2527002a54",
+            "uuid": "8462b799b43a4451ab2421d4adae14c5"
+          }
+        ],
+        [
+          "charger1",
+          1,
+          "CHARGER1",
+          "U20",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "charger1",
+            "puuid": "a18d5e08f2904633ba494096399fed1d",
+            "uuid": "42300fb120fc4b7f9661bdaf710fb03a"
+          }
+        ],
+        [
+          "power supply",
+          1,
+          "POWER SUPPLY",
+          "U23",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "power supply",
+            "puuid": "587ca6dc6e4145ffb9e45c7cd8b35919",
+            "uuid": "8d910a940f6943b9b4c2a28b54c29b27"
+          }
+        ],
+        [
+          "laser emitter",
+          1,
+          "LASER EMITTER",
+          "U25",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "laser emitter",
+            "puuid": "2a0b6d26d6314771a36c70685c61cc5c",
+            "uuid": "f25696fa9f944e85a961a1d90258a387"
+          }
+        ],
+        [
+          "nixie tube",
+          1,
+          "NIXIE TUBE",
+          "U26",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "iwmain",
+            "spiceSymbolName": "nixie tube",
+            "puuid": "493f44707f2b4ebb80169726d7bd3c54",
+            "uuid": "2d4b10e9c0a64047a979332b44dd75c8"
+          }
+        ]
+      ],
+      "updateTime": 1691461423,
+      "createTime": 1690639967,
+      "histories": [],
+      "created_at": "2023-07-29 22:12:47",
+      "updated_at": "2023-08-08 10:23:43"
+    },
+    {
+      "uuid": "31d6926c0d1fdf77ee8d7ab0e9bfa8b8",
+      "puuid": "f166c34e5abacdedc64b808532457aa4",
+      "title": "PCB_Photogate1",
+      "filename": "PCB_Photogate1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "34e8fda956bb4aff97a24d2527002a54": 2,
+        "29b294485f7c4742a68ad483040f9eaa": 1,
+        "ca5fa3f587714aeabaeffdcd4a77a30e": 1,
+        "a9eb82f02ee54a98aac46faf63a6e1fe": 1,
+        "5413fb1ac6dd462d9ffe2ee0fe200f4c": 1,
+        "64ad43635e7e42a4a9f4757a9608914a": 1,
+        "9d5379e10de34c2e880c7de4d3a21293": 1,
+        "a18d5e08f2904633ba494096399fed1d": 1,
+        "587ca6dc6e4145ffb9e45c7cd8b35919": 1,
+        "2a0b6d26d6314771a36c70685c61cc5c": 1,
+        "493f44707f2b4ebb80169726d7bd3c54": 1
+      },
+      "BOM": [],
+      "updateTime": 1690988089,
+      "createTime": 1690984353,
+      "histories": [],
+      "created_at": "2023-08-02 21:52:33",
+      "updated_at": "2023-08-02 22:54:49"
+    },
+    {
+      "uuid": "9a1bd36ae0ce3a9d70986417fe587172",
+      "puuid": "f166c34e5abacdedc64b808532457aa4",
+      "title": "PCB_Photogate1_2",
+      "filename": "PCB_Photogate1_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29b294485f7c4742a68ad483040f9eaa": 1,
+        "9d5379e10de34c2e880c7de4d3a21293": 1,
+        "34e8fda956bb4aff97a24d2527002a54": 2,
+        "493f44707f2b4ebb80169726d7bd3c54": 1,
+        "ca5fa3f587714aeabaeffdcd4a77a30e": 1,
+        "a9eb82f02ee54a98aac46faf63a6e1fe": 1,
+        "5413fb1ac6dd462d9ffe2ee0fe200f4c": 1,
+        "64ad43635e7e42a4a9f4757a9608914a": 1,
+        "a18d5e08f2904633ba494096399fed1d": 1,
+        "587ca6dc6e4145ffb9e45c7cd8b35919": 1,
+        "2a0b6d26d6314771a36c70685c61cc5c": 1
+      },
+      "BOM": [],
+      "updateTime": 1691489277,
+      "createTime": 1691460620,
+      "histories": [],
+      "created_at": "2023-08-08 10:10:20",
+      "updated_at": "2023-08-08 18:07:57"
+    }
+  ],
+  "sort": [
+    "2058631587342934dda97932ebb2916c",
+    "b770e7dd25f5e0cca0c1e556b799e44f"
+  ],
+  "title": "Photogate1",
+  "foldername": "Photogate1",
+  "schfilename": "Photogate1.json",
+  "schfilemtime": 1691461423091
+}
