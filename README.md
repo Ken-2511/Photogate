@@ -11,7 +11,7 @@ Here is my design specification.
 ### How to Detect Object
 
 I decided to use laser emitter and receiver to detect objects' movement. Whenever an opaque object goes through the photogate, the laser is blocked, and the laser receiver would push a signal to the microprocessor (Arduino-nano).
-![Nixie Tube](https://github.com/Ken-2511/Photogate/blob/main/images/1704487773554.jpg)
+![Nixie Tube](https://github.com/Ken-2511/Photogate/blob/main/images/nixie_tube.jpg)
 
 ### How to Show the Time
 
