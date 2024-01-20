@@ -11,11 +11,20 @@ Here is my design specification.
 ### How to Detect Object
 
 I decided to use laser emitter and receiver to detect objects' movement. Whenever an opaque object goes through the photogate, the laser is blocked, and the laser receiver would push a signal to the microprocessor (Arduino-nano).
-![Nixie Tube](https://github.com/Ken-2511/Photogate/blob/main/images/nixie_tube_feature.jpg)
+
+<div align="center">
+  <img src="https://github.com/Ken-2511/Photogate/blob/main/images/front_feature.jpg", width=400/>
+  <p><i>Figure 1. Red laser</i></p>
+</div>
 
 ### How to Show the Time
 
 I installed a nixie-tube on each photogate to show their time (Figure 1) and the nixie-tube is controlled by an Arduino-nano.
+
+<div align="center">
+  <img src="https://github.com/Ken-2511/Photogate/blob/main/images/nixie_tube_feature.jpg" width=400/>
+  <p><i>Figure 2. Nixie Tube</i></p>
+</div>
 
 ### How to Adjust Time
 
@@ -28,6 +37,11 @@ However, the existing libraries does not fulfill our need as they are memory-con
 There is a "photogate controller", as the name says, it controls all the ten photogates by sending infrared signals (Figure 2). We use the controller's internal timer as the "standard time", and each photogate adjust time and stores the difference between their timers into their memory. Since the time difference between each timer does not vary, we got a relatively precise timing system.
 
 By applying this technique, we finally got the time-adjusting system with lower than 150 microseconds (0.00015 seconds) precision, which is adequate for being a teaching aid.
+
+<div align="center">
+  <img src="https://github.com/Ken-2511/Photogate/blob/main/images/controller.jpg", width=400/>
+  <p><i>Figure 3. Controller</i></p>
+</div>
 
 ### User-Friendly Consideration
 
