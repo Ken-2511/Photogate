@@ -55,4 +55,4 @@ This design uses many electronic devices, including voltage-boosting module, bat
 
 The laser does not always accurately shoot on the laser receiver. Therefore, I designed a "fine-tuning" structure. By turning the screw, we can slightly adjust the laser's direction.
 
-For further information, you can check the .docx file.
+For further information, you can check the <a href="https://github.com/Ken-2511/Photogate/blob/main/%E5%85%89%E7%94%B5%E9%97%A8%E8%AF%B4%E6%98%8E%E6%89%8B%E5%86%8C.docx">.docx</a> file.
